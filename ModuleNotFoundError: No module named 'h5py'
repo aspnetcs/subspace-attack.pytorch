@@ -1,0 +1,5 @@
+sudo pip install cython
+sudo apt-get install libhdf5-dev
+sudo pip install h5py
+
+https://github.com/keras-team/keras/issues/3426
