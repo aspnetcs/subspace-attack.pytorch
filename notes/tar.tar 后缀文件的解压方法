@@ -1,0 +1,15 @@
+https://blog.csdn.net/babyfans/article/details/10484877
+tar.tar 后缀文件的解压方法
+
+babyfans 2013-08-29 08:41:15  19243  收藏 1
+版权
+最近下载了一个tar.tar后缀的文件始终解压不了，经过多次搜索终于找到解压方法，现总结如下：
+
+1 先将tar.tar后缀的文件改名为tar.xz的后缀文件
+
+2  xz -d xxx.tar.xz 将 xxx.tar.xz解压成 xxx.tar
+
+3 用 tar xvf xxx.tar来解包
+————————————————
+版权声明：本文为CSDN博主「babyfans」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/babyfans/article/details/10484877
